@@ -1,32 +1,41 @@
-# React + TypeScript + Vite
+# Wayपार
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Discover Local. Support Local.
 
-Currently, two official plugins are available:
+Wayपार is a hyperlocal discovery and digital inclusion platform designed to help people discover India's digitally invisible local businesses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## The Problem
 
-## React Compiler
+Many local businesses, including street vendors, cobblers, tailors, barbers, artisans, and traditional shops, remain invisible on digital platforms.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Wayपार aims to bridge this digital gap.
 
-## Expanding the Oxlint configuration
+## Core Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Discover nearby local businesses.
+- Explore fixed, semi-mobile, and mobile vendors.
+- View business profiles, services, prices, and operating hours.
+- Find traditional businesses through Hidden Gems.
+- Check vendor location updates and availability.
+- Contact businesses before visiting.
+- Support English and Hindi discovery.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Our Mission
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Make every local business discoverable, accessible, and digitally visible.
+
+## Technology Stack
+
+- React
+- TypeScript
+- Vite
+- Supabase
+- OpenStreetMap
+
+## Project Status
+
+Currently under development.
+
+---
+
+Built with the vision of empowering India's local businesses.
